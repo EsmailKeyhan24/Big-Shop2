@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --blueDrak:#284980;
+    --white:#fff;
+    --orangGold:#F8C530;
+    --drakBlack:#333;
+    --grayLight:#cecece;
+    --RobotoBold:"Roboto", sans-serif;
+    --fontSize:16px;
+}
+header,main,footer,section,div,article,figure,figcaption,nav,ul{
+    display: flex;
+    flex-wrap: wrap;
+}
